@@ -1,0 +1,32 @@
+.navigation {
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.navigation__list {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.navigation__listItem {
+    text-align: center;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.navigation__link {
+    color: #117b86;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    border-radius: 15px;
+    margin-bottom: 2px;
+}
+
+.navigation__link:hover {
+    background-color: #117a863b
+}
+
+.navigation__link:active {
+    background-color: #460000;
+}

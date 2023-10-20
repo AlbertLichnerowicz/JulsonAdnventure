@@ -1,0 +1,27 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+.bodyImage {
+    background-image: url("../images/zorza1.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main__background {
+    background-color: rgba(251, 251, 251, 0.899);
+    color: #117b86;
+    font-family: "Lato", sans-serif;
+    line-height: 1.5;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 35px;
+    border-radius: 25px;
+}
