@@ -13,3 +13,8 @@
     border-radius: 15px;
     margin-bottom: 2px;
 }
+
+.footer__link:hover {
+    background-color: #117a863b;
+    margin: 0px auto;
+}
